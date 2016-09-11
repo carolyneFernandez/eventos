@@ -1,0 +1,242 @@
+
+
+h1.eslogan {
+    font-size: 10px;
+    position: relative;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    margin-bottom: 2%;
+    text-align: center;
+    top: 10px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+
+height: 400px;
+  max-height: 400px;
+
+
+width: 100%; // Add this
+}
+
+#header{
+        height: 140px;
+    width: 100%;
+   
+background-color: black;
+}
+#hizquierda{
+    width: 50%
+}
+
+
+#imageheader{
+      width: 30%;
+    margin-top: -6%;
+    margin-left: 2%;
+}
+.cabecera{
+        float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: 2%;
+
+}
+.navbar{
+    border-radius: 0px;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+   padding-left: 0; 
+    padding-right: 0;
+}
+#menu{
+      background-color: rgba(0,0,0,0.5);
+}
+
+
+#menuu{
+      background-color: rgba(0,0,0,0.5);
+}
+
+.men{
+ color: white;
+}
+.navbar-inverse{
+        background-color: rgba(0,0,0,0.5);
+}
+
+#imagen{
+    height: 500px;
+        margin-top: -6%;
+    width: 100%;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/*Remove that CSS*/
+.col-md-3 {
+    margin-left:5%;
+    }
+/*Remove that CSS*/
+
+
+
+button {
+  margin: 20px 0;
+  line-height: 34px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  outline:none !important;
+  width:100%;
+}
+
+button:active {
+
+  outline:none;
+}
+
+button.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}
+
+
+    
+    button.btn-warning:before {
+  border-color: #d58512 #d58512 #d58512 transparent;
+    }
+    button.btn-warning:after {
+  border-color: #d58512 transparent #d58512 #d58512;
+    }
+
+    
+.label.label-default.rank-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+    
+
+.destacados{
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+
+
+
+@media screen and (max-width: 200px) {
+    #imagen {
+    height: 200px;
+    margin-top: -6%;
+    width: 100%;
+}
+    
+    #header {
+    height: 130px;
+    width: 100%;
+    background-color: black;
+}
+    
+    h1.eslogan {
+    font-size: 10px;
+    position: relative;
+    width: 517px;
+    left: 50%;
+    margin-left: -250px;
+    margin-bottom: 2%;
+    text-align: center;
+    top: -5px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    }
+    
+    
+    #imageheader {
+    width: 50%;
+    margin-top: -6%;
+    margin-left: 2%;
+}
+    .cabecera {
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: -10%;
+}
+    
+ 
+.btn-warning {
+    width: 36%;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    }
+ 
+    .destacados > div > div {
+    width: 36%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+
+}
+    #somos{
+            width: 80%;
+    text-align: center;
+    color: white;
+    padding: 4%;
+    margin-left: 6%;
+    }
+}
